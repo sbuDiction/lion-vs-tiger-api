@@ -1,0 +1,8 @@
+# sklearn
+scikit-learn
+tensorflow
+seaborn
+matplotlib
+numpy
+pandas
+pathlib
