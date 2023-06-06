@@ -1,5 +1,6 @@
 .lion_vs_tiger
 .vscode
 __pycache__
-ml
+# ml
 static
+ml_training_data

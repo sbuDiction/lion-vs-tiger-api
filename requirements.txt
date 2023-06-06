@@ -1,8 +1,9 @@
 # sklearn
 scikit-learn
-tensorflow
+tensorflow-cpu
 seaborn
 matplotlib
 numpy
 pandas
 pathlib
+opencv-python
