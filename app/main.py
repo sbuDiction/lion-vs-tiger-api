@@ -15,6 +15,13 @@ app.config['UPLOAD_FOLDER'] = file_manager.UPLOAD_FOLDER
 CORS(app)
 
 
+@app.route("/")
+def home_view():
+    return {
+        "api_status": "Up and running"
+    }
+
+
 # Example endpoint
 @app.route('/ml/predict', methods=['POST'])
 def predict():
