@@ -5,7 +5,7 @@ from helpers import file_manager
 
 
 # Load your trained model
-model = tf.keras.models.load_model('ml/saved_model/lion_vs_tiger_ml')
+model = tf.keras.models.load_model('ml/saved_model/lion_vs_tiger_ml_beta')
 
 
 def makePrediction(filename):
