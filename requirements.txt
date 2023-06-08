@@ -1,11 +1,11 @@
 # sklearn
-scikit-learn
+# scikit-learn
 tensorflow-cpu
-seaborn
-matplotlib
+# seaborn
+# matplotlib
 numpy
-pandas
-pathlib
+# pandas
+# pathlib
 opencv-python
 flask
 flask-cors
