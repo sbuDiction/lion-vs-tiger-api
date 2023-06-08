@@ -2,5 +2,6 @@
 .vscode
 __pycache__
 # ml
-static
+# static
 ml_training_data
+node_modules

@@ -7,3 +7,7 @@ numpy
 pandas
 pathlib
 opencv-python
+flask
+flask-cors
+gunicorn
+Werkzeug
