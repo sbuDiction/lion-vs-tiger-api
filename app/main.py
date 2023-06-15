@@ -29,13 +29,16 @@ def predict():
     if request.method == 'POST':
         # check if the post request has the file part
         if 'file' not in request.files:
-            print('No file part')
-            return redirect(request.url)
+            return {
+                "error": "No file part"
+            }
         file = request.files['file']
         # If the user does not select a file, the browser submits an
         # empty file without a filename.
         if file.filename == '':
-            print('No selected file')
+            return {
+                "error": "No selected file"
+            }
         if file and file_manager.allowed_file(file.filename):
             filename = secure_filename(file.filename)
             print(filename)
