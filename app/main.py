@@ -22,7 +22,15 @@ def home_view():
     }
 
 
+@app.route('/test', methods=['POST'])
+def test():
+    return {
+        "test": "test is working"
+    }
+
 # Example endpoint
+
+
 @app.route('/ml/predict', methods=['POST'])
 def predict():
     current_filename = ''
