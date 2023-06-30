@@ -1,7 +1,7 @@
 tensorflow-cpu
 numpy
 opencv-python
-flask
+Flask
 flask-cors
 gunicorn
 Werkzeug

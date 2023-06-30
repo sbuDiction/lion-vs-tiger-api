@@ -1,7 +1,6 @@
 from flask import Flask
 from flask import request
 from flask_cors import CORS
-import sqlite3
 import json
 from ml_func import makePrediction
 from werkzeug.utils import secure_filename
