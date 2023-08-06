@@ -57,3 +57,5 @@ Within the activated environment, use the following command to install all the r
 ```bash
   pip install -r requirements.txt
 ```
+
+<!-- web: gunicorn wsgi:app -->
