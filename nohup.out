@@ -1,0 +1,12 @@
+[2023-08-07 08:56:01 +0000] [21512] [INFO] Starting gunicorn 21.2.0
+[2023-08-07 08:56:01 +0000] [21512] [INFO] Listening at: http://127.0.0.1:8000 (21512)
+[2023-08-07 08:56:01 +0000] [21512] [INFO] Using worker: sync
+[2023-08-07 08:56:01 +0000] [21513] [INFO] Booting worker with pid: 21513
+2023-08-07 08:56:02.270376: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[2023-08-07 08:59:58 +0000] [21512] [INFO] Handling signal: hup
+[2023-08-07 08:59:58 +0000] [21512] [INFO] Hang up: Master
+[2023-08-07 08:59:59 +0000] [21610] [INFO] Booting worker with pid: 21610
+[2023-08-07 08:59:59 +0000] [21512] [ERROR] Worker (pid:21513) was sent SIGHUP!
+2023-08-07 08:59:59.445320: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
