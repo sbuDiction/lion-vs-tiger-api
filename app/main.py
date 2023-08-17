@@ -1,5 +1,4 @@
-from flask import Flask
-from flask import request
+from flask import request, Flask, render_template
 from flask_cors import CORS
 import json
 from ml_func import makePrediction
@@ -7,7 +6,7 @@ from werkzeug.utils import secure_filename
 from helpers import file_manager
 import os
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 app.config['UPLOAD_FOLDER'] = file_manager.UPLOAD_FOLDER
 
 # enable cors
@@ -16,9 +15,7 @@ CORS(app)
 
 @app.route("/")
 def home_view():
-    return {
-        "api_status": "Up and running"
-    }
+    return render_template('index.html')
 
 
 @app.route('/test', methods=['POST'])

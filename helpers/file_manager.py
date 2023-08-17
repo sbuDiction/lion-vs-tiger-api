@@ -1,4 +1,4 @@
-UPLOAD_FOLDER = './static/uploads/'
+UPLOAD_FOLDER = './uploads/'
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
 
 
